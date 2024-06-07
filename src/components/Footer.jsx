@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row className="py-4">
           <Col md="3">
-            <h5>Restaurant Listing</h5>
+            <h5 style={{color:'orange'}}>Restaurant Listing</h5>
             <ul className="list-unstyled">
               <li><a href="/" className="text-white">Home</a></li>
               <li><a href="/about" className="text-white">About Us</a></li>
@@ -16,7 +16,7 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md="3">
-            <h5>Services</h5>
+            <h5  style={{color:'orange'}}>Services</h5>
             <ul className="list-unstyled">
               <li><a href="/restaurants" className="text-white">Find Restaurants</a></li>
               <li><a href="/reviews" className="text-white">Read Reviews</a></li>
@@ -24,14 +24,14 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md="3">
-            <h5>Legal</h5>
+            <h5 style={{color:'orange'}}>Legal</h5>
             <ul className="list-unstyled">
               <li><a href="/privacy" className="text-white">Privacy Policy</a></li>
               <li><a href="/terms" className="text-white">Terms of Service</a></li>
             </ul>
           </Col>
           <Col md="3">
-            <h5>Follow Us</h5>
+            <h5  style={{color:'orange'}}>Follow Us</h5>
             <ul className="list-unstyled">
               <li><a href="https://www.facebook.com" className="text-white">Facebook</a></li>
               <li><a href="https://www.twitter.com" className="text-white">Twitter</a></li>
