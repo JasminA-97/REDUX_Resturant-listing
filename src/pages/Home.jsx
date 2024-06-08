@@ -38,13 +38,13 @@ const Home = () => {
               currentItems?.map(resturant=>(
                 <Col key={resturant?.id} className='mb-5' sm={12} md={6} lg={4} >
                   <Card className='shadow card-container bg-white ms-3 me-3 rounded-4'>
-                    <Card.Img height={'450px'} variant="top" src={resturant?.photograph} />
+                    <Link to={`/preview/${resturant?.id}`}>
+                     <Card.Img height={'450px'} variant="top" src={resturant?.photograph} />
                     <div className="card-overlay">
-                      <h5>{resturant?.name}</h5>
-                      <Link to={`/preview/${resturant?.id}`}>
-                        <Button variant="primary">Preview</Button>
-                      </Link>
+                      <h2>{resturant?.name}</h2>
+                      <h4>{resturant?.cuisine_type}</h4>
                     </div>
+                    </Link>
                   </Card>
               </Col>
               ))

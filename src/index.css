@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Sail"
 }
 
 .footer a {
@@ -52,14 +51,29 @@
     opacity: 1;
   }
   
-  .card-overlay h5, .card-overlay a {
+  .card-overlay h2, .card-overlay a {
     color: #fff;
     text-align: center;
+    font-family: "Sail";
+    background-color: orange;
+    background: 100%;
+
+  }
+  .card-overlay h4{
+    color: #fff;
+    font-family: "Sail";
   }
   
   .card-overlay a {
     margin-top: 10px;
   }
+  .custom-row-height {
+    height: 60px; /* Adjust the height as needed */
+    vertical-align: middle; /* Center the text vertically */
+  }
+
+  
+  
   
  
 
