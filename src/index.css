@@ -73,8 +73,74 @@
   }
 
   
+
+  /* WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;  /* Adjust scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2); /* You can adjust the transparency */
+  border-radius: 20px;
+  border: 3px solid transparent; /* Adjust the border to give some spacing */
+}
   
   
+/* Responsive styles for Preview page */
+
+
+@media (max-width: 992px) {
+  /* Adjust the row layout for medium screens */
+  .row {
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-5 {
+    flex: 0 0 100%;
+    max-width: 50%;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 50%;
+    margin-top: 20px; /* Add margin between columns */
+  }
+
+  .photograph{
+    width: 25%;
+    height: 25%;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust for small screens */
+  .col-lg-5, .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 50%;
+
+  }
+  
+  .col-lg-1 {
+    display: none; /* Hide the empty column on smaller screens */
+  }
+  
+  .tab-content {
+    padding: 10px;
+  }
+  .photograph{
+    width: 25%;
+    height: 25%;
+    padding: 0px;
+
+  }
+  
+}
+
  
 
   

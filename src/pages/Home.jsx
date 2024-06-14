@@ -53,7 +53,7 @@ const Home = () => {
             }     
           </Row> 
         }
-        <Pagination className='custom-pagination d-flex justify-content-center align-items-center'>
+        <Pagination className='custom-pagination d-flex justify-content-center align-items-center flex-wrap'>
           <Pagination.First  onClick={() => paginate(1)} disabled={currentPage === 1} />
           <Pagination.Prev onClick={() => paginate(currentPage - 1)} disabled={currentPage === 1} />
           {[...Array(Math.ceil(resturantData.length / itemsPerPage)).keys()].map(number => (
