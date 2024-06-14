@@ -105,6 +105,7 @@ const Preview = () => {
                 <Tab eventKey="contact" title="Contact" >
                   <h5 style={{color:'orange'}}>Address</h5>{resturant?.address}
                 </Tab>
+                {/* integrating map */}
                 <Tab eventKey="maps" title="Map" >
                   <iframe
                     width="100%"
